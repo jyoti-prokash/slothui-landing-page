@@ -24,6 +24,7 @@
 <li>Google Fonts (Plus Jakarta Sans)</li>
 <li>Figma (for design reference)</li>
 </ul>
+Live Site: https://jyoti-prokash.github.io/slothui-landing-page/
 
 
 
