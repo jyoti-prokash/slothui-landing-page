@@ -1,0 +1,148 @@
+@media screen and (max-width: 576px) {
+body {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0px 0px;
+        }
+.hero-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1E293B;
+    margin-bottom: 20px;
+    line-height: 44px;
+}
+/* navbar section */
+.nav-links{
+    display: none;
+}
+.primary-btn{
+    display: none;
+}
+.secondary-btn{
+    display:none;
+}
+.menu-icon{
+    display: block;
+}
+/* social section */
+.social-logos {
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+/* feature-section */
+.features-section .heading {
+    font-size: 30px;
+}
+/* stts feature */
+.stats-heading {
+    font-size: 30px;
+    line-height: 38px;
+    width: 100%;
+}
+.stats-subheading {
+    font-size: 18px;
+    color: #6b7280;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.divider {
+    display: none;
+}
+/* who is for it section */
+.content {
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* testimonial section */
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(280px, 1fr));
+    gap: 10px;
+}
+.testimonial-card {
+    background: white;
+    padding: 20px;
+    border-radius: 16px;
+    border: 1px solid #E2E8F0;
+    text-align: left;
+    color: #475569;
+    width: 343px;
+    height: 266px;
+}
+/* office section */
+.office-section {
+    background-color: #ffffff;
+    padding: 10px 16px;
+}
+/* FAQ */
+.faq-section {
+    background-color: #F8FAFC;
+    padding: 10px 16px;
+}
+/* CTA */
+.cta-section {
+    background-color: #eef2ff;
+    padding: 0px 16px;
+    overflow: auto;
+}
+.cta-container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.cta-text {
+    flex: 1;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.cta-text h2 {
+    font-size: 30px;
+    width: 80%;
+}
+.cta-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.cta-images {
+    flex: 1;
+    position: relative;
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    overflow: hidden;
+    margin-left: 0px;
+}
+
+.cta-images img {
+    max-width: 50%;
+    height: auto;
+}
+
+.img-back {
+    width: 200px;
+    transform: translateX(80px);
+    opacity: 0.9;
+    z-index: 0;
+    margin-left: 0px;
+}
+
+.img-front {
+    width: 240px;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+}
+
+}

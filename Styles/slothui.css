@@ -43,7 +43,9 @@ body{
     height: 100%;
     gap: 8px;
 }
-
+.menu-icon{
+    display: none;
+}
 .nav-bar{
     justify-content: space-between;
     align-items: center;
@@ -176,8 +178,8 @@ body{
 }
 
 .features-section .heading {
-    font-size: 28px;
-    font-weight: 700;
+    font-size: 36px;
+    font-weight: 800;
     margin-bottom: 12px;
 }
 
@@ -254,7 +256,7 @@ body{
 }
 
 .stats-subheading {
-    font-size: 16px;
+    font-size: 20px;
     color: #6b7280;
     max-width: 700px;
     margin: 0 auto 48px;
@@ -469,8 +471,8 @@ body{
 
 .office-locations {
     display: flex;
+    flex-wrap: wrap;
     gap: 32px;
-    
 }
 
 .office-card {
@@ -585,7 +587,6 @@ body{
     background-color: #eef2ff;
     padding: 64px 112px;
     overflow: hidden;
-    /* Prevent images from overflowing */
 }
 
 .cta-container {
