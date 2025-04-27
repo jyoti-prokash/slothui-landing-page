@@ -141,14 +141,17 @@
         padding: 64px 16px;
         margin: 0 auto;
     }
+
     .load-btn {
         display: block;
     }
+
     .office-locations {
         flex-direction: column;
         gap: 16px;
         align-items: center;
     }
+
     .office-card {
         flex: 1;
         padding: 20px;
@@ -156,6 +159,7 @@
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
         border: 1px solid #E2E8F0;
     }
+
     /* FAQ */
     .faq-section {
         background-color: #F8FAFC;
@@ -228,35 +232,54 @@
         left: 0;
         z-index: 1;
     }
-/* footer section */
-.footer-section {
-    padding: 64px 16px;
-}
-.footer-grid {
-    display: grid;
-    grid-template-columns: repeat(1, minmax(160px, 1fr));
-    gap: 32px;
-}
-.footer-bottom {
-    flex-direction: column;
-}
-.scroll-top{
-    display: none;
-}
-.scroll-tops {
-    background-color: #f3f4f6;
-    color: #4b5563;
-    padding: 12px 14px;
-    width: 24px;
-    height: 24px;
-    border-radius: 999px;
-    font-size: 25px;
-    text-decoration: none;
-    transition: 0.3s;
-    display: block;
-    align-items: center;
-    justify-content: center;
-    display: flex;
+
+    /* footer section */
+    .footer-section {
+        padding: 64px 16px;
+    }
+
+    .footer-grid {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(160px, 1fr));
+        gap: 32px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+    }
+
+    .scroll-top {
+        display: none;
+    }
+
+    .scroll-tops {
+        background-color: #f3f4f6;
+        color: #4b5563;
+        padding: 12px 14px;
+        width: 24px;
+        height: 24px;
+        border-radius: 999px;
+        font-size: 25px;
+        text-decoration: none;
+        transition: 0.3s;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
 }
 
+/* responsive for medium device */
+@media screen and (min-width:576px) and (max-width:992px) {
+
+    /* testimonial section */
+    .testimonial-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .content {
+        flex-direction: column;
+        gap: 20px;
+    }
 }
